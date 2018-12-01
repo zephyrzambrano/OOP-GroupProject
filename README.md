@@ -1,0 +1,2 @@
+# OOP-GroupProject
+Interest calculator
