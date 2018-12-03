@@ -8,6 +8,13 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter loan term (in years): ");
 	      double termInterestYears = scanner.nextInt();
+	      InterestCalculator x=new InterestCalculator();
+			double a= scanner.nextDouble();
+			 a = x.calculateInterest(a);
+			 double b =scanner.nextDouble();
+			 b = x.calculateInterest(b); 
+			System.out.print("company A interest is ");
+			System.out.print("company B interest is ");
 	}
 
 }
