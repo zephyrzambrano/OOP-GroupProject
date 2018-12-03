@@ -13,8 +13,13 @@ public class Main {
 			 a = x.calculateInterest(a);
 			 double b =scanner.nextDouble();
 			 b = x.calculateInterest(b); 
-			System.out.print("company A interest is ");
-			System.out.print("company B interest is ");
+			System.out.print("company A interest is " + a);
+			System.out.print("company B interest is " + b);
+			
+		x.compareRates(a, b);
+		double x
+		System.out.print("The better interest rate is");
+		
 	}
 
 }
