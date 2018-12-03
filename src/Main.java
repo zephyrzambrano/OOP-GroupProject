@@ -4,7 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		System.out.print("Enter company A years");
+		System.out.print("Enter company B years");
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter loan term (in years): ");
 	      double termInterestYears = scanner.nextInt();
@@ -17,7 +18,7 @@ public class Main {
 			System.out.print("company B interest is " + b);
 			
 		x.compareRates(a, b);
-		double x
+		
 		System.out.print("The better interest rate is");
 		
 	}
