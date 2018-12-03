@@ -22,6 +22,8 @@ public class Main {
 			double betterrate = x.compareRates(a, b);
 		System.out.println("The better interest rate is" + betterrate);
 		
+		scanner.close();
+		
 	}
 
 }
