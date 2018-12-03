@@ -10,17 +10,17 @@ public class Main {
 		
 	    
 	      InterestCalculator x=new InterestCalculator();
-	      System.out.print("Enter company A years"); 
+	      System.out.print("Enter company A years: "); 
 	      double a= scanner.nextDouble();
 			 a = x.calculateInterest(a);
-			 System.out.print("Enter company B years");
+			 System.out.print("Enter company B years: ");
 			 double b =scanner.nextDouble();
 			 b = x.calculateInterest(b); 
-			System.out.print("company A interest is " + a);
-			System.out.print("company B interest is " + b);
+			System.out.println("company A interest is " + a);
+			System.out.println("company B interest is " + b);
 		
 			double betterrate = x.compareRates(a, b);
-		System.out.print("The better interest rate is" + betterrate);
+		System.out.println("The better interest rate is" + betterrate);
 		
 	}
 
