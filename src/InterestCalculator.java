@@ -1,12 +1,15 @@
 
 public class InterestCalculator {
-
-	public int calculateInterest(int years) {
-		int principal;
-		return (years);
+	
+	private double principal=1000;
+	private double rate=0.05;
+	
+	public double calculateInterest(double years) {
+		double withInterest=principal*rate*years;
+		return (withInterest);
 	}
 	
-	public int compareRates(int a, int b) {
+	public double compareRates(double a, double b) {
 		
 	}
 
