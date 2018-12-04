@@ -20,7 +20,7 @@ public class Main {
 			System.out.println("company B interest is " + b);
 		
 			double betterrate = x.compareRates(a, b);
-		System.out.println("The better interest rate is" + betterrate);
+		System.out.println("The better interest rate is: " + betterrate);
 		
 		scanner.close();
 		
