@@ -5,22 +5,20 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		
 		Scanner scanner = new Scanner(System.in);
 		
+	    InterestCalculator x=new InterestCalculator();
 	    
-	      InterestCalculator x=new InterestCalculator();
-	      System.out.print("Enter company A years: "); 
-	      double a= scanner.nextDouble();
-			 a = x.calculateInterest(a);
-			 System.out.print("Enter company B years: ");
-			 double b =scanner.nextDouble();
-			 b = x.calculateInterest(b); 
-			System.out.println("company A interest is " + a);
-			System.out.println("company B interest is " + b);
+	    System.out.print("Enter years: "); 
+	    double years= scanner.nextDouble();
+	    double a = x.calculateInterestA(years);
+		double b = x.calculateInterestB(years);
 		
-			double betterrate = x.compareRates(a, b);
-		System.out.println("The better interest rate is: " + betterrate);
+		System.out.println("Company A interest is " + a);
+		System.out.println("Company B interest is " + b);
+		
+		String betterRate = x.compareRates(a, b);
+		System.out.println("The better interest rate is: " + betterRate);
 		
 		scanner.close();
 		
