@@ -21,10 +21,10 @@ public class InterestCalculator {
 	
 	public String compareRates(double a, double b) {
 		if (a>b) {
-			return "Company A";
+			return "Chase";
 		}
 		else if (b>a) {
-			return "Company B";
+			return "Wells Fargo";
 		}
 		else {
 			return "both!";

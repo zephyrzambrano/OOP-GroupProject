@@ -14,8 +14,8 @@ public class Main {
 	    double a = x.calculateInterestA(years);
 		double b = x.calculateInterestB(years);
 		
-		System.out.println("Company A interest is " + a);
-		System.out.println("Company B interest is " + b);
+		System.out.println("Company A (Chase) interest is " + a);
+		System.out.println("Company B (Wells Fargo) interest is " + b);
 		
 		String betterRate = x.compareRates(a, b);
 		System.out.println("The better interest rate is: " + betterRate);
